@@ -1,0 +1,10 @@
+{
+  "MESSAGE_ERROR": "error!!!",
+  "MESSAGE_LOADING": "loading...",
+  "about": "About",
+  "description": "This page is powered by Next.js",
+  "example": "An example app integrating React Intl with Next.js",
+  "hello": "Hello, World!",
+  "home": "Home",
+  "title": "React Intl Next.js Example"
+}

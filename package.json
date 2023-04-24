@@ -1,0 +1,47 @@
+{
+  "name": "i18n-in-static-nextjs-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "predev": "npm run i18n:compile",
+    "dev": "next dev",
+    "prebuild": "npm run i18n:compile",
+    "build": "next build",
+    "start": "next start",
+    "i18n:extract": "formatjs extract 'pages/**/*.ts*' 'components/**/*.ts*' --out-file lang/en.json",
+    "i18n:compile": "formatjs compile-folder lang compiled-lang",
+    "lint": "eslint './**/*.ts*' 'lang/**/*.json'",
+    "lint:fix": "eslint --fix './**/*.ts*' 'lang/**/*.json'",
+    "format": "prettier --write './**/*.ts*' 'lang/**/*.json' --config ./.prettierrc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-formatjs": "^4.10.0",
+    "next": "^13.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intl": "^6.4.1"
+  },
+  "devDependencies": {
+    "@formatjs/cli": "^6.1.0",
+    "@types/node": "^18.16.0",
+    "@types/react": "^18.0.38",
+    "@typescript-eslint/eslint-plugin": "5.48.1",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-next": "13.1.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-jest-dom": "^4.0.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "7.32.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-testing-library": "^5.10.0",
+    "prettier": "^2.7.1",
+    "typescript": "^5.0.4"
+  }
+}

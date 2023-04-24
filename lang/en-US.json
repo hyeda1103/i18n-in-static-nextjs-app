@@ -1,0 +1,26 @@
+{
+  "example": {
+    "defaultMessage": "An example app integrating React Intl with Next.js"
+  },
+  "hello": {
+    "defaultMessage": "Hello, World!"
+  },
+  "title": {
+    "defaultMessage": "React Intl Next.js Example"
+  },
+  "home": {
+    "defaultMessage": "Home"
+  },
+  "description": {
+    "defaultMessage": "This page is powered by Next.js"
+  },
+  "about": {
+    "defaultMessage": "About"
+  },
+  "MESSAGE_LOADING": {
+    "defaultMessage": "loading..."
+  },
+  "MESSAGE_ERROR": {
+    "defaultMessage": "error!!!"
+  }
+}

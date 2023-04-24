@@ -1,0 +1,26 @@
+{
+  "example": {
+    "defaultMessage": "React Intl와 Next.js를 사용하는 예시입니다"
+  },
+  "hello": {
+    "defaultMessage": "안녕 세상!"
+  },
+  "title": {
+    "defaultMessage": "React Intl Next.js 사용예시"
+  },
+  "home": {
+    "defaultMessage": "홈"
+  },
+  "description": {
+    "defaultMessage": "이 페이지는 Next.js를 사용하고 있어요"
+  },
+  "about": {
+    "defaultMessage": "대하여"
+  },
+  "MESSAGE_LOADING": {
+    "defaultMessage": "로딩중..."
+  },
+  "MESSAGE_ERROR": {
+    "defaultMessage": "에러!!!"
+  }
+}

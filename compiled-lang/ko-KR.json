@@ -1,0 +1,10 @@
+{
+  "MESSAGE_ERROR": "에러!!!",
+  "MESSAGE_LOADING": "로딩중...",
+  "about": "대하여",
+  "description": "이 페이지는 Next.js를 사용하고 있어요",
+  "example": "React Intl와 Next.js를 사용하는 예시입니다",
+  "hello": "안녕 세상!",
+  "home": "홈",
+  "title": "React Intl Next.js 사용예시"
+}
