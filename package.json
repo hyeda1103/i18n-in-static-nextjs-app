@@ -2,7 +2,6 @@
   "name": "i18n-in-static-nextjs-app",
   "version": "1.0.0",
   "private": true,
-  "main": "index.js",
   "scripts": {
     "predev": "npm run i18n:compile",
     "dev": "next dev",
